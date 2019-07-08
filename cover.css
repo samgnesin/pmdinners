@@ -4,8 +4,7 @@
 
 /* Links */
 a,
-a:focus,
-a:hover {
+a:focus{
   color: #000000;
 }
 
@@ -19,7 +18,10 @@ a:hover {
   border: .05rem solid #000000;
 }
 
-
+.btn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 /*
  * Base structure
  */
