@@ -98,10 +98,18 @@ body {
   font-weight: 700;
 }
 
+.cover-heading{
+  font-size: 56px;
+}
 
 /*
  * Footer
  */
 .mastfoot {
   color: #505050;
+}
+
+
+.company-logo{
+  margin: 0 7px;
 }
