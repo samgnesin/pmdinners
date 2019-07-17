@@ -123,3 +123,26 @@ a {
     background-color: #fff;
     text-decoration: none;
   }
+
+  #applyButton {
+    height: 100px;
+    width: 150px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 1s;
+    transform-origin: 50% 50%;
+  }
+  #applyButton:focus {
+    outline: 2px dashed #17171d;
+  }
+  #applyButton:hover svg {
+    transform: scale(1.2);
+  }
+  #applyButton::-moz-focus-inner {
+    border: 0;
+  }
+  #applyButton svg {
+    outline: none;
+    transition: transform 0.3s linear;
+  }
