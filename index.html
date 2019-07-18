@@ -32,7 +32,11 @@
       <section id="logos">
          <h2 class="section-heading"><strong>PMs</strong> FROM <strong>FAST GROWING COMPANIES </strong>ATTEND DINNER</h2>
          <div class="logo-container">
-            <img src="img/logos.svg" id="company-logos" >
+            <picture>
+               <source media="(min-width: 900px)" srcset="img/logos.svg" id="company-logos" >
+               <source media="(min-width: 480px)" srcset="img/logos_mobile.svg" id="company-logos">
+               <img src="img/logos_mobile.svg" id="company-logos">
+           </picture>
          </div>
       </section>
       <section id="cover-introduction" class="feature-full">
